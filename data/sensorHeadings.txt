@@ -1,0 +1,1 @@
+No., Measuring point, Description, Function, Measuring Range, Location, Connected to, Depending on option

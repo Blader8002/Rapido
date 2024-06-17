@@ -1,0 +1,83 @@
+,No., Measuring point, Description, Function, Measuring Range, Location, Connected to, Depending on option
+0,Speed Pickups, -,- ,- , -, -, -,-
+1,1, 1SE1004A/B, speed pickup turbo- charger speed, TC speed monitoring, -, turbo- charger, Control Module/Safety,-
+2,2, 1SE1005, speed pickup engine speed, engine speed & camshaft position detection, 0-900 rpm/0-1800 Hz, camshaft drive wheel, Control Module/Alarm,-
+3,3, 2SE1005, speed pickup engine speed, engine speed & camshaft position detection, 0-900 rpm/0-1800 Hz, camshaft drive wheel, Control Module/Safety,-
+4,4, 1SV1010, actuatorengine fuel admission, speed and load governing, -, engine, Auxiliary Cabinet,-
+5,Start and stop of engine, -, -, -, -, -, -,-
+6,5, 1SSV1011, solenoid valve engine start, actuated during enginestart and slowturn, -, engine, Control Module/Alarm,-
+7,6, 1PS1011, pressure switch start air pressure after start valve, feedback start valve activated, -, engine, Control Module/Alarm,-
+8,7, 1HZ1012, push button local emergency stop, emergency stop from local control station, -, Local Operating Panel, Gateway Module,-
+9,8, 1SZV1012, solenoid valve engine shutdown, manual and auto-emergency shutdown, -, engine, Control Module/Safety,-
+10,9, 1PS1012, pressure switch emergency stop air, feedback emergency stop. start blocking active, 0-10 bar, emergency stop air pipe on engine, Control Module/Safety,-
+11,Fuel admission, -,- ,- , -, -, -,-
+12,10, 1GT1022, position sensor fuel admission, inductive measurement of fuel rack position, 0-30+ALA rotation/0-110% fuel adm., engine, Control Module/Alarm,-
+13,Variable Injection Timing, -,- ,- , -, -, -,-
+14,11, 3GV1028A, solenoid valve VIT cylinder 1 row A, 3/2-way valve M307 for VIT adjustment, -, engine, Control Module/Alarm,-
+15,12, 4GV1028A, solenoid valve VIT cylinder 2 row A, 3/2-way valve M307 for VIT adjustment, -, engine, Control Module/Alarm,-
+16,13, 3GOS1028A, proximity switch VIT safe position row A, VIT position feedback, -, engine, Control Module/Alarm,-
+17,14, 3GV1028B, solenoid valve VIT cylinder 1 row B, 3/2-way valve M307 for VIT adjustment, -, engine, Control Module/Alarm,-
+18,15, 4GV1028B, solenoid valve VIT cylinder 2 row B, 3/2-way valve M307 for VIT adjustment, -, engine, Control Module/Alarm,-
+19,16, 3GOS1028B, proximity switch VIT safe position row B, VIT position feedback, -, engine, Control Module/Alarm,-
+20,Charge air bypass, -,- ,- , -, -, -,-
+21,17, 1XSV1030, solenoid valve charge air bypass flap, blow by while partload or low speed, -, engine, Control Module/Alarm,charge air bypass
+22,18, 1XSV1031A/B, solenoid valve charge air blow off flap A/B, charge airblow off at low suction air temperature, -, engine, Control Module/Alarm,charge air blow off
+23,Main bearings, -,- ,- , -, -, -,-
+24,19, xTE1064-1/2, double temp sensors. main bearings, indication. alarm. engine protection, 0-120 +ALA-C, engine, Control Modules,main bearing temp monitoring
+25,Turning gear, -,- ,- , -, -, -,-
+26,20, 1GOS1070, limit switch turning gear engaged, indication and start blocking, -, engine, Control Module/Alarm,-
+27,Slow turn, -,- ,- , -, -, -,-
+28,21, 1SSV1075, solenoid valve slow turn, slow turn, -, engine, Control,Module/Alarm
+29,22, 2SSV1075, solenoid valve slow turn, start air blocking during slow turn, -, engine, Control Module/Alarm,-
+30,Jet Assist, -,- ,- , -, -, -,-
+31,23, 1SSV1080, solenoid valve for JetAssist, turbo charger acceleration by Jet Assist, -, engine, Control Module/Alarm,Jet Assist
+32,Lube oil system, -,- ,- , -, -, -,-
+33,24, 1PT2170, pressure transmitter, lube oil pressure engine inlet. alarm at low lube oil pressure, 0-10 bar, engine, Control Module/Alarm,-
+34,25, 2PT2170, pressure transmitter, lube oil pressureengine inlet. auto shutdown at low pressure, 0-10 bar, Local Operating Panel, Control Module Safety,-
+35,26, 1TE2170-1/2, double temp sensor. lube oil temp engine inlet, alarm at high temp, 0-120 +ALA-C, engine, Control Modules,-
+36,27, 1EM2470, electric motor cylinder lubrication, cylinder lubrication, -, engine, Auxiliary Cabinet,-
+37,28, 1FE2470A/B, limit switch cylinders lubricator line A/B, function control of cylinder lubricator line A, 0.1-1 Hz, engine, Control Module/Alarm,-
+38,29, 1PT2570A/B, pressure transmitter. lube oil. pressure turbo charger inlet, alarm at low lube oil pressure, 0-6 bar, engine, Control Module/Alarm,-
+39,30, 2PT2570A/B, pressure transmitter. lube oil pressure turbo charger inlet, auto shutdown at low lube oil pressure, 0-6 bar, engine, Control Module/Safety,-
+40,31, 1TE2580A/B, double temp sensor. lube oil temp turbo charger drain. alarm at high temp, 0-120 +ALA-C, engine, Control Modules, -,
+41,Oil mist detection, -,- ,- , -, -, -,-
+42,32, 1QTIA2870, oilmist detector. oil-mist concentration in crankcase, oilmist supervision, -, engine, -,oil mist detection
+43,33, 1ES2870, binary contact oil-mist detector system ready, integrated in 1QTIA2870,-, engine, Control Module/Safety,oil-mist detection
+44,34, 1QS2870, opacity switch oil-mist in crankcase, integrated in 1QTIA2870, -, engine, Control Module/Safety,oil-mist detection
+45,35, 2QS2870, opacity switch oil-mist in crankcase, integrated in 1QTIA2870, -, engine, Control Module/Safety,oil mist detection
+46,Splash oil, -,- ,- , -, -, -,-
+47,36, xTE2880-1/2, double temp sensors. splash oil temp rod bearings, splash oil supervision, 0-120 +ALA-C, engine, Control Modules,-
+48,Cooling water systems, -,- ,- , -, -, -,-
+49,37, 1TE3168, double temp sensor HT water temp charge air cooler inlet, for EDS visualisation and control of preheater valve, 0-120 +ALA-C, engine, Control Module/Alarm,-
+50,38, 1PT3170, pressure transmitter. HT cooling water pressure engine inlet, alarm at low pressure, 0-6 bar, engine, Control Module/Alarm,-
+51,39, 2PT3170, pressure transmitter. HT cooling water pressure engine inlet, detection of low cooling water pressure, 0-6 bar, engine, Control Module/Alarm,-
+52,40, 1TE3170-1/2, double temp sensor. HTCW temp engine inlet, alarm. indication, 0-120 +ALA-C, engine, Control Modules,-
+53,41, 1TE3180-1/2, temp sensor. HT water temp engine outlet, -, 0-120 +ALA-C, engine, Control Modules,-
+54,42, 1PT3470, pressure transmitter. nozzle cooling water pressure engine inlet, alarm at low cooling water pressure, 0-10 bar, engine, Control Module/Alarm,-
+55,43, 2PT3470, pressure transmitter. nozzle cooling water pressure engine inlet, alarm at low cooling water pressure, 0-10 bar, engine, Control Module/Safety,-
+56,44, 1TE3470-1/2, double temp sensor. nozzle cooling water temp engine inlet, alarm at high cooling water temp, 0-120 +ALA-C, engine, Control Modules,-
+57,45, 1PT4170, pressure transmitter. LT water pressure charge air cooler inlet, alarm at low cooling water pressure, 0-6 bar, engine, Control Module/Alarm,-
+58,46, 2PT4170, pressure transmitter. LT water pressure charge air cooler inlet, alarm at low cooling water pressure, 0-6 bar, engine, Control Unit,-
+59,47, 1TE4170-1/2, double temp sensor. LT water temp charge air cooler inlet, alarm. indication, 0-120 +ALA-C, LT pipe charge air cooler inlet, Control Modules,-
+60,Fuel system, -,- ,- , -, -, -,-
+61,48, 1PT5070, pressure transmitter. fuel pressure engine inlet, remote indication and alarm, 0-16 bar, engine, Control Module/Alarm,-
+62,49, 2PT5070, pressure transmitter. fuel pressure engine inlet, remote indication and alarm, 0-16 bar, engine, Control Module/Safety,-
+63,50, 1TE5070-1/2, double temp sensor. fuel temp engine inlet, alarm at high temp in MDO mode and for EDS use, 0-200 +ALA-C, engine, Control Modules,-
+64,Charge air system, -,- ,- , -, -, -,-
+65,51, 1PT6100, pressure transmitter. intake air pressure, for EDS visualisation, -20...+-20 mbar, intake air duct after filter, Control Module/Alarm,-
+66,52, 1TE6100, double temp sensor. intake air temp, temp input for charge air blow-off and EDS visualisation, 0-120 +ALA-C, intake airduct after filter, Control Module/Alarm,-
+67,53, 1TE6170A/B-1/2, double temp sensor. charge air temp charge air cooler A/B inlet, for EDS visualisation, 0-300 +ALA-C, engine, Control Modules,-
+68,54, 1PT6180A/B, pressure transmitter. charge air pressure before cylinders row A/B, engine control, 0-6 bar, engine, Control Module/Alarm,-
+69,55, 2PT6180A/B, pressure transmitter. charge air pressure before cylinders row A/B, -, 0-6 bar, engine, Control Module/Safety,-
+70,56, 1TE6180A/B-1/2, double temp sensor. charge air temp after charge air cooler A/B, alarm at high temp, 0-120 +ALA-C, engine, Control Modules,-
+71,Exhaust gas system, -,- ,- , -, -, -,-
+72,57, xTE6570A/B-1/2, double thermocouples. exhaust gas temp cylinders A/B, indication. alarm. engine protection, 0-800 +ALA-C, engine, Control Modules,-
+73,58, 1TE6575A/B-1/2, double thermocouples. exhaust gas temp before turbo charger A/B, indication. alarm. engine protection, 0-800 +ALA-C, engine, Control Modules,-
+74,59, 1TE6580A/B-1/2, double thermocouples. exhaust gas temp after turbocharger A/B, indication, 0-800 +ALA-C, engine, Control Modules,-
+75,Control air. start air. stop air, -,- ,- , -, -, -,-
+76,60, 1PT7170, pressure transmitter starting air pressure, engine control. remote indication, 0-40 bar, engine, Control Module/Alarm,-
+77,61, 2PT7170, pressure transmitter. starting air pressure, engine control. remote indication, 0-40 bar, engine, Control Module/Safety,-
+78,62, 1PT7180, pressure transmitter. emergency stop air pressure, alarm at low air pressure, 0-40 bar, engine, Control Module/Alarm,-
+79,63, 2PT7180, pressure transmitter. emergency stop air pressure, alarm at low air pressure, 0-40 bar, engine, Control Module/Safety,-
+80,64, 1PT7400, pressure transmitter. control air pressure, remote indication, 0-10 bar, engine, Control Module/Alarm,-
+81,65, 2PT7400, pressure transmitter. control air pressure, remote indication, 0-10 bar, engine, Control Module/Safety,-
