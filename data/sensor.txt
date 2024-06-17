@@ -38,7 +38,7 @@ Lube oil system, -,- ,- , -, -, -, -
 28, 1FE2470A/B, limit switch cylinders lubricator line A/B, function control of cylinder lubricator line A, 0.1-1 Hz, engine, Control Module/Alarm, -
 29, 1PT2570A/B, pressure transmitter. lube oil. pressure turbo charger inlet, alarm at low lube oil pressure, 0-6 bar, engine, Control Module/Alarm, -
 30, 2PT2570A/B, pressure transmitter. lube oil pressure turbo charger inlet, auto shutdown at low lube oil pressure, 0-6 bar, engine, Control Module/Safety, -
-31, 1TE2580A/B, double temp sensor. lube oil temp turbo charger drain. alarm at high temp, 0-120 +ALA-C, engine, Control Modules, -,
+31, 1TE2580A/B, double temp sensor. lube oil temp turbo charger drain, alarm at high temp, 0-120 +ALA-C, engine, Control Modules, -,
 Oil mist detection, -,- ,- , -, -, -, -
 32, 1QTIA2870, oilmist detector. oil-mist concentration in crankcase, oilmist supervision, -, engine, -, oil mist detection
 33, 1ES2870, binary contact oil-mist detector system ready, integrated in 1QTIA2870,-, engine, Control Module/Safety, oil-mist detection
