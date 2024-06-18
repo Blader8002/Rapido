@@ -1,0 +1,64 @@
+Error/System,Causes,INFO (Section/Work Card in DO0F466162E Maintenance Manual),Code
+Cooling water temperature too high,Cooling water system (HT system),Cooling water shortage or air in the cooling water system,42
+,,Cooling water chambers and/or radiator contaminated,000.08,43
+,,Cooling water pump faulty,,44
+,,Temperature control faulty,,47
+,,Preheating device active,,87
+,Engine,Engine or individual cylinders severely overloaded,3.5, 4.3,25
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+Cooling water pressure too low,Cooling water system (HT system),Cooling water level in the tank too low,,70
+,,Leakage in the system,,71
+,,Lines blocked, components blocked,,74
+,,Cooling water pump faulty,,44
+,,Stand-by pump not started,,82
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+,,Pressure switch/Measuring transducer faulty,,61
+Lube oil temperature too high,Cooling water system (re-cooling system),Cooling water shortage or air in the cooling water system,,42
+,,Cooling water chambers and/or radiator contaminated,000.08,43
+,,Cooling water pump faulty,,44
+,,Temperature control faulty,,47
+,,Preheating device active,,87
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+Lube oil pressure too low,Lube oil system,Low oil level in the service tank,,35
+,,Pressure relief valve of the lube oil pump, broken spring,,36
+,,Pressure regulating valve faulty,,60
+,,Lube oil pipes leaking,,37
+,,Lube oil lines blocked,,80
+,,Lube oil filter clogged,,38
+,,Lube oil pump faulty,,41
+,,Stand-by pump not started,,82
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+Exhaust gas temperature,Level control deviation or mean value change,,,
+,Fuel system,Fuel pressure before injection pump too low, feed pump faulty,3.4, 3.5,12
+,Engine,Engine or individual cylinders severely overloaded,3.5, 4.3,25
+,Charge air system,Charge air temperature too high, charge air pressure too low,3.5,48
+,,Error in the bypass system,,62
+,Injection time maladjustment,Injection time too late (only for engines with automatic fuel injection timer),3.4, 200.xx, 120.xx,15
+,Injection valves,Injection valves faulty,221.xx,20
+,Fuel injection pump,Fuel injection pump - incorrect setting,200.xx,67
+,,Fuel injection pump faulty,200.xx,68
+,Cylinder head,Cylinder head - Inlet duct contaminated,055.xx,88
+,Inlet and exhaust valves,Inlet or exhaust valves are sticking, valve springs broken, valves leaking,113.xx, 114.xx,26
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+,,Temperature sensor faulty,,84
+,,Cabling/Connections defective/faulty,,86
+,Turbocharger,Turbocharger contaminated or faulty,500.xx,49
+,Ship,For marine engines: Propeller damaged or fouling on the ship's hull,,45
+Charge air temperature too high,Intake air system/Charge air system,Intake temperature too high,3.5,50
+,,Charge air cooler contaminated (pressure difference too great),3.5, 322.xx,53
+,,Leakage on air and exhaust side,,52
+,Exhaust gas system,Exhaust gas counter pressure too high (exhaust boiler contaminated),3.5,54
+,Injection time maladjustment,Injection time too early (only for engines with automatic fuel injection timer),3.4, 200.xx,14
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+,Turbocharger,Air filter, compressor/turbine side of the turbocharger contaminated/damaged,500.xx,51
+Charge air pressure too low,Intake air system/Charge air system,Intake temperature too high,3.5,50
+,,Charge air cooler contaminated (pressure difference too great),3.5, 322.xx,53
+,,Leakage on air and exhaust side,,52
+,Exhaust gas system,Exhaust gas counter pressure too high (exhaust boiler contaminated),3.5,54
+,Injection time maladjustment,Injection time too early (only for engines with automatic fuel injection timer),3.4, 200.xx,14
+,Control and monitoring system,Indicating instrument or connection line faulty,,39
+,Turbocharger,Air filter, compressor/turbine side of the turbocharger contaminated/damaged,500.xx,51
+Crankshaft bearing - temperature too high,Crankshaft bearing,Bearing damaged, faulty lubrication,021.xx,72
+,Engine,Alignment/foundation faulty,000.09, 012.xx,95
+,Control and monitoring system,Temperature sensor faulty,,84
+,,Cabling/Connections defective/faulty,,86
